@@ -18,7 +18,7 @@ module.exports = {
         },
       },
     },
-    base: {
+    linea: {
       networkCheckTimeout: 100000,
       provider: function() {
         return new HDWalletProvider(
@@ -26,7 +26,7 @@ module.exports = {
           process.env.RPC
         );
       },
-      network_id: 8453,
+      network_id: 59144,
       gas: 6721975,
       gasPrice: 100000000,
     },
